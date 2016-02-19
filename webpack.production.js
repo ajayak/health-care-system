@@ -10,7 +10,7 @@ var devFlagPlugin = new webpack.DefinePlugin({
 
 module.exports = {
   entry: [
-    './js/index.js'
+    './app/index.js'
   ],
   output: {
     path: path.join(__dirname, 'dist'),

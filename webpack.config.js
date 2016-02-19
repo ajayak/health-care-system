@@ -9,11 +9,12 @@ var devFlagPlugin = new webpack.DefinePlugin({
 });
 
 module.exports = {
-  devtool: 'cheap-module-eval-source-map',
+  devtool: '#eval-source-map',
   entry: [
     'eventsource-polyfill',
     'webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000',
-    './js/index.js'
+    'webpack/hot/dev-server',
+    './client/app/index.js'
   ],
   output: {
     path: path.join(__dirname, 'dist'),

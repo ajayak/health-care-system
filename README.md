@@ -8,6 +8,7 @@
 ```bash
 $ https://github.com/ajayak/health-care-system.git
 $ cd health-care-system
+$ npm install -g nodemon
 $ npm install
 ```
 

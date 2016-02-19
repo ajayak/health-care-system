@@ -1,7 +1,7 @@
 {
   "name": "health-care-system",
   "description": "A health care system",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "scripts": {
     "start": "better-npm-run start",
     "build": "webpack -p --config webpack.production.js",
@@ -9,7 +9,7 @@
   },
   "betterScripts": {
     "start": {
-      "command": "node server.js",
+      "command": "nodemon ./server/server.js --watch server",
       "env": {
         "DEBUG": "true"
       }

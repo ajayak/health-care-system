@@ -1,0 +1,14 @@
+<changelist name="unnamed" date="1455822491115" recycled="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/shelved.patch" />
+  <option name="DESCRIPTION" value="" />
+  <binary>
+    <option name="BEFORE_PATH" value="js/components/.gitkeep" />
+    <option name="AFTER_PATH" value="client/js/actions/.gitkeep" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/.gitkeep" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="js/actions/.gitkeep" />
+    <option name="AFTER_PATH" value="client/js/components/.gitkeep" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/.gitkeep" />
+  </binary>
+</changelist>
