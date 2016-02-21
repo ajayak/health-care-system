@@ -32,7 +32,7 @@ module.exports = {
   module: {
     loaders: [
       {test: /\.js$/, loaders: ['babel'], exclude: /node_modules/},
-      {test: /\.css$/, loader: "style-loader!css-loader?modules&importLoaders=1!postcss-loader"}
+      {test: /\.css$/, loader: 'style-loader!css-loader?modules&importLoaders=1!postcss-loader'}
     ],
     postcss: function () {
       return [autoprefixer, precss];
